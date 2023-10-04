@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif, "google";
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 100px 20px 0px 20px;
+}
+
+.gallery .title {
+  padding-bottom: 30px;
+}
+
+.gallery .title h3 {
+  font-size: 3em;
+  font-weight: bolder;
+  border-bottom: 3px solid #222;
+}
+
+.gallery .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gallery .box .col {
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.gallery .box .col img {
+  width: 100%;
+  padding-bottom: 30px;
+  border-radius: 5px;
+}
+
+.gallery .btn {
+  margin: 40px 0 70px 0;
+  background-color: rgb(0, 0, 0);
+  padding: 15px 40px;
+  border-radius: 6px;
+}
+
+.gallery .btn a {
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+
+.gallery .btn:hover {
+  background-color: gray;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.navbar a {
+  color: black;
+  font-size: 1rem;
+  margin-left: 1rem;
+  padding: 20px 18px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #808080;
+  border-bottom: 3px solid #808080;
+}
+
+.logo {
+  margin-left: 2rem;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.aboutsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 200px 20px 0px 20px;
+}
+
+.aboutsection .title h3 {
+  font-size: 3em;
+  font-weight: bolder;
+  border-bottom: 3px solid #222;
+}
+
+.aboutsection p {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 2em;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 15px 20px 30px 20px;
+}
+
+.contact .contacttitle h3 {
+  font-size: 3em;
+  font-weight: bolder;
+  border-bottom: 3px solid #222;
+}
+
+.contact .btns {
+  margin: 50px 20px 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+}
+
+.contact .btns a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 0.1rem solid;
+  border-radius: 50%;
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+}
+
+.contact .btns a:hover {
+  color: #808080;
+}
